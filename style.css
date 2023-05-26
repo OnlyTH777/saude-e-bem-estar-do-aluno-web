@@ -50,6 +50,8 @@ body {
 }
 
 .botao {
+    text-decoration: none;
+    cursor: pointer;
     color: #170132;
     text-align: center;
     margin: 5%;
