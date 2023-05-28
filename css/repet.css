@@ -19,41 +19,16 @@
     padding: 0;
 }
 
-body {
-    margin: 5%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(src/Vagabunda.png);
-}
-
 .section-1 {
-    margin-top: 25%;
-    margin-left: 7.5%;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-}
-.section-2 {
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
-.section-1-titulo {
-    color: #CCCCCC;
-    font-size: 300%;
-    font-weight: 100;
-}
-
-.section-1-subtitulo {
-    color: #CCCCCC;
-    font-size: 75%;
-    font-weight: 100;
-}
-
-.section-2-button-continuar {
-    background-color: rgba(0, 0, 0, 0.25);
+.button {
+    background-color: rgba(0, 0, 0, 0.5);
     font-weight: 100;
     display: flex;
     width: 20%;
@@ -63,8 +38,7 @@ body {
     border: 2.5px solid;
     border-color: #12E1B9;
     border-radius: 10px;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 5%;
     justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 5%;
 }
