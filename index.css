@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 
 * {
     font-family: 'Open Sans', sans-serif;
@@ -8,58 +10,32 @@
 }
 
 body {
-    background-color: #573E54;
-}
-
-.cor-header {
-    background-color: #170132;
-    width: 100vw;
-    height: 10vh;
-}
-
-.triangulo-para-direita {
-    margin-top: -5vh; 
-    border-top: 25px solid transparent;
-    border-bottom: 25px solid transparent;
-    border-left: 25px solid #361542;
-}
-
-.div-header {
-    margin-top: -5vh;
-    padding-left: 5vw;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    height: 10vh;
-    background-color: #361542;
-}
-
-.div-1-texto {
-    font-size: 150%;
-    color: #bce1ab;
-    font-family: "Alice";
-    font-weight: bold;
-}
-
-.botoes {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.botao {
-    text-decoration: none;
-    cursor: pointer;
-    color: #170132;
-    text-align: center;
     margin: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(src/Vagabunda.png);
+}
+
+.container {
+    border-radius: 20px;
     display: flex;
-    flex: 0 0 20%;
-    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
     align-items: center;
-    width: 20vw;
-    height: 10vh;
-    background-color: #BCE1AB;
+}
+
+.container-button-continuar {
+    width: 20%;
+    padding: 1%;
+    cursor: pointer;
+    font-family: "Open Sans";
+    background: none;
+    color: #12E1B9;
+    border: 2.5px solid;
+    border-color: #12E1B9;
+    border-radius: 500px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5%;
 }
