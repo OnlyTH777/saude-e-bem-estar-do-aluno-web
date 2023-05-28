@@ -20,16 +20,15 @@ body {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    align-items: left;
 }
 
 .container-b-button-continuar {
+    background-color: rgba(0, 0, 0, 0.25);
     font-weight: 100;
     display: flex;
     width: 20%;
     padding: 1%;
     cursor: pointer;
-    background: none;
     color: #12E1B9;
     border: 2.5px solid;
     border-color: #12E1B9;

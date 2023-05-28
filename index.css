@@ -13,7 +13,6 @@
     url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.svg#Neue Machina") format("svg"); 
 }
 
-
 * {
     font-family: 'Neue Machina', 'sans-serif';
     margin: 0;
@@ -54,12 +53,12 @@ body {
 }
 
 .section-2-button-continuar {
+    background-color: rgba(0, 0, 0, 0.25);
     font-weight: 100;
     display: flex;
     width: 20%;
     padding: 1%;
     cursor: pointer;
-    background: none;
     color: #12E1B9;
     border: 2.5px solid;
     border-color: #12E1B9;
