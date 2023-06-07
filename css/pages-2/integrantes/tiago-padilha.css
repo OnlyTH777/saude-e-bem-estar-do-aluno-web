@@ -1,14 +1,31 @@
 @import url("../../repetition.css");
 
 body {
+    display: flex;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    background-image: url(../../../src/portrait/gears_portrait.png);
+    background-image: url(../../../src/portrait/tiago_padilha_portrait.png);
 }
 
 @media screen and (orientation: landscape) {
     body {
-        background-image: url(../../../src/landscape/gears_landscape.png);
+        background-image: url(../../../src/landscape/tiago_padilha_landscape.png);
     }
+}
+
+.section-1-titulo {
+    margin-left: 10vmin;
+    margin-top: 10vmin;
+    border-radius: 0 !important;
+    justify-content: center;
+    cursor: auto;
+}
+
+.section-2 {
+    margin: 10vmin;
+}
+
+.section-2 h3 {
+    color: #FFFFFF;
 }

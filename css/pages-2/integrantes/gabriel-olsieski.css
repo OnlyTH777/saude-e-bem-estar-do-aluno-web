@@ -1,6 +1,7 @@
 @import url("../../repetition.css");
 
 body {
+    display: flex;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -11,4 +12,16 @@ body {
     body {
         background-image: url(../../../src/landscape/gears_landscape.png);
     }
+}
+
+.section-1-titulo {
+    margin-left: 10vmin;
+    margin-top: 10vmin;
+    border-radius: 0 !important;
+    justify-content: center;
+    cursor: auto;
+}
+
+.section-2 {
+    margin: 10vmin;
 }
