@@ -28,15 +28,17 @@
 .button {
     background-color: rgba(0, 0, 0, 0.5);
     font-weight: 100;
+    font-size: 2.5vmin;
     display: flex;
     width: 25vw;
-    padding: 1%;
+    padding: 2vmin;
     cursor: pointer;
     color: #12E1B9;
     border: 2.5px solid;
     border-color: #12E1B9;
     border-radius: 10px;
     justify-content: space-between;
+    align-items: center;
     margin-top: 3%;
     margin-left: 5%;
 }
