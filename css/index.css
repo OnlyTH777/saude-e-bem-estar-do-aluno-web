@@ -4,12 +4,12 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    background-image: url(../src/portrait/home_portrait.png);
+    background-image: url(../src/portrait/home_portrait.webp);
 }
 
 @media screen and (orientation: landscape) {
     body {
-        background-image: url(../src/landscape/home_landscape.png);
+        background-image: url(../src/landscape/home_landscape.webp);
     }
 }
 
