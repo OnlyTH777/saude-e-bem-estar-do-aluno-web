@@ -38,19 +38,9 @@ body {
 .button {
     margin-top: 0% !important;
     margin-left: 0% !important;
-    padding-inline-start: 5vw;
     position: absolute;
     bottom: 0;
-    margin-bottom: 5%;
-}
-
-.button-mobile {
-    margin-top: 0% !important;
-    margin-left: 0% !important;
-    padding-inline-start: 5vw;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 5%;
+    margin-bottom: 10vmin;
 }
 
 p {
