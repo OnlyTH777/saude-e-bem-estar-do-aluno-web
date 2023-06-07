@@ -34,11 +34,11 @@
     padding: 2vmin;
     cursor: pointer;
     color: #12E1B9;
-    border: 0.5vmin solid;
+    border: 0.4vmin solid;
     border-color: #12E1B9;
     border-radius: 2.5vmin;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5vmin;
-    margin-left: 5vmin;
+    margin-top: 7.5vmin;
+    margin-left: 10vmin;
 }
