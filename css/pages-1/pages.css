@@ -4,11 +4,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    background-image: url(../../src/portrait/gears_portrait.webp);
+    background-image: url(../../src/pages.jpg);
 }
 
 @media screen and (orientation: landscape) {
     body {
-        background-image: url(../../src/landscape/gears_landscape.webp);
+        background-image: url(../../src/pages.jpg);
     }
 }

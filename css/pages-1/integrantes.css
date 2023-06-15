@@ -1,0 +1,11 @@
+@import url("pages.css");
+
+body {
+    background-image: url(../../src/portrait/gears_portrait.webp);
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        background-image: url(../../src/landscape/gears_landscape.webp);
+    }
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://db.onlinewebfonts.com/c/38d41072aa88a50711d4d50dd0d50f6b?family=Neue+Machina');
+
+@font-face {
+    font-family: "Neue Machina";
+    src: url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.eot");
+    src: url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.svg#Neue Machina") format("svg");
+}
