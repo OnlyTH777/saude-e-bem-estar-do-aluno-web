@@ -63,6 +63,11 @@ body {
     color: #202020;
 }
 
+.section-1 p {
+    text-align: justify;
+    color: #202020;
+}
+
 .button p {
     color: #12E1B9 !important;
 }
